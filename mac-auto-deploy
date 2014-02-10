@@ -1,0 +1,7 @@
+#!/bin/sh
+
+local=$1
+remote=$2
+
+cd "$local" &&
+fswatch . "date +%H:%M:%S && rsync -aztH --exclude .git --exclude-from=.gitignore --delete --progress --rsh='ssh -p32200' . $remote"
