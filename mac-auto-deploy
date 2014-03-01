@@ -4,4 +4,4 @@ local=$1
 remote=$2
 
 cd "$local" &&
-fswatch . "date +%H:%M:%S && rsync -aztH --exclude .git --exclude .svn --progress --rsh='ssh -p32200' . $remote"
+fswatch . "date +%H:%M:%S && rsync -aztH --exclude '#*' --exclude .git --exclude .svn --progress --rsh='ssh -p32200' . $remote"
