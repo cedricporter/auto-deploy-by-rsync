@@ -31,4 +31,4 @@ mac-auto-deploy . gzhualiang@dev35:~/git/`basename $(PWD)`
 ```
 
 ## Screencast
-![sample](http://everet.b0.upaiyun.com/static/mac.gif)
+![sample](http://everet.b0.upaiyun.com/imgs/mac_20140301_225042_77450LLb.gif)
