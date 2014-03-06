@@ -1,6 +1,0 @@
-#!/bin/sh
-
-src="."
-target="gzhualiang@dev210:~/work/`basename $(pwd)`"
-
-auto-deploy-by-rsync $src $target
