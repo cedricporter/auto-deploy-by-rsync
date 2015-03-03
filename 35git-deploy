@@ -1,6 +1,0 @@
-#!/bin/sh
-
-src="."
-target="gzhualiang@dev35:~/git/`basename $(pwd)`"
-
-mac-auto-deploy $src $target

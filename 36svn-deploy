@@ -1,6 +1,0 @@
-#!/bin/sh
-
-src="."
-target="gzhualiang@dev36:~/svn/`basename $(pwd)`"
-
-mac-auto-deploy $src $target
